@@ -53,7 +53,7 @@ async def on_message(message):
     await message.channel.send(f"{message.author} has been unmuted for saying the secret word!!")
     #From Line no 19-38 is BadWordCheck
   if msg.startswith(".subs"):
-    api_key = "AIzaSyB3HHetCUqkUQlusSgZgzl_o5oE_uIh8uU"
+    api_key = #empty for safety reasons 
     youtube = build('youtube', 'v3', developerKey=api_key)
 
     request = youtube.channels().list(
@@ -70,7 +70,7 @@ async def on_message(message):
     await message.channel.send("Total subscriber count of AeroblazeYt:-")
     await message.channel.send("```"+u["subscriberCount"]+"```")
   if msg.startswith(".videos"):
-    api_key = "AIzaSyB3HHetCUqkUQlusSgZgzl_o5oE_uIh8uU"
+    api_key = #empty for safety reasons.
     youtube = build('youtube', 'v3', developerKey=api_key)
 
     request = youtube.channels().list(
@@ -95,4 +95,4 @@ async def on_message(message):
     
 
 keep_alive()
-client.run("ODQ0NjMzNzgxOTIzMDg2MzY2.YKVQgg.7gmfPpmH0wWhKl5m54aMbLlo0xs")
+client.run(#empty for safet reasons)
