@@ -113,6 +113,8 @@ Moderators and admins are given a secret keyword through which they can bypass t
 
 .src :- view link for the source code
 .help :- Get help
+.mod :- Request for moderator acess
+
 
 
 
