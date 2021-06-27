@@ -7,6 +7,7 @@ This code is for a discord bot for my friend who wanted to start a youtube chann
 See older versions of the code [here](https://github.com/SiddharthRajpal/AeroBot/releases).
 Note :- Latest version is used in server
 <h1>Functions</h1>
+
 .subs :- Sends the current subscribers of our youtube channel (Currently Using MrBeast's channel cause our channel is not up yet.)
 
 .videos :- Sends the total number of videos uploaded to our youtube channel (Currently Using MrBeast's channel cause our channel is not up yet.)
